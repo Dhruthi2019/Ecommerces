@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <title>Apparel Shoes</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a class="navbar-brand" href="#">
+        <img
+          class="imagesize"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwKGxHJtsCEmaPmgLODR8Q8F_py9GjW7I65MRg24IC3CMtxp5pqNGfe-Yn6ayiFcXBRCY&usqp=CAU">
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link size" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link size  font-size-b" href=index.html#productSection>Products</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link size" href=index.html#cat>Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link size" href=index.html#new>New Arrivals</a>
+          </li>
+          <div>
+            <li class="nav-item">
+              <a class="nav-link size" href="#contact">Contact us</a>
+            </li>
+          </div>
+        </ul>
+      </div>
+      <div class="ml-auto">
+        <p>
+          <a href="#cart">
+            <img
+              class="imagesize1"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ3uQsKSSfcc6RyxZZGYq_P9NXTJ2lNKldgNYJPV7mhW-5MWcLmsHbQGf30KVSAiGs3QU&usqp=CAU"
+            />
+          </a>
+        </p>
+      </div>
+    </nav>
+    <h1 class=heading mt-4">APPAREL SHOES</h1>
+
+    <div class="d-flex flex-row justify-content-between">
+      <div class="bg shadow">
+        <img
+          src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/u/1/i/7-9825-sports-shoes-waan-black-original-imagpfg8zuxxbhxj.jpeg?q=70"
+          alt="Product 1"
+          class="image"
+        />
+        <h4>GEL-KAYANO 29</h4>
+        <p class="main">
+          The GEL-KAYANO® 29 shoe creates a stable running experience and a more
+          responsive feel underfoot.
+        </p>
+        <p class="main">₹4,109</p>
+        <button class="btn btn-primary add-to-cart-btn" data-id="1">
+          Add to Cart
+        </button>
+      </div>
+      <div class="bg shadow">
+        <img
+          src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=550,height=412,quality=75,format=auto/in-resources/e671b7de-bcf9-4637-af5c-0ffe1c9d208a/Images/ProductImages/Source/1202A380_700_SR_RT_GLBNSW.jpg"
+          alt="Product 2"
+          class="image"
+        />
+        <h4>METASPEED EDGE+</h4>
+        <p class="main">
+          The METASPEED™ EDGE+ racing shoes are designed for cadence-style
+          runners who are looking to start fast and finish faster.
+        </p>
+        <p class="main">₹4,999</p>
+        <button class="btn btn-primary add-to-cart-btn" data-id="2">
+          Add to Cart
+        </button>
+      </div>
+      <div class="bg shadow">
+        <img
+          src="https://images.unsplash.com/photo-1595341888016-a392ef81b7de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHNob2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+          alt="Product 3"
+          class="image"
+        />
+        <h4>MAGIC SPEED 2</h4>
+        <p class="main">
+          The MAGIC SPEED™ 2 shoe offers the energy you need to move towards a
+          new personal best.
+        </p>
+        <p class="main">₹5,747</p>
+        <button class="btn btn-primary add-to-cart-btn" data-id="1">
+          Add to Cart
+        </button>
+      </div>
+      <div class="bg shadow">
+        <img
+          src="data:image/jpeg;base64,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"
+          alt="Product41"
+          class="image"
+        />
+        <h4>GEL-QUANTUM 180 VII</h4>
+        <p class="main">
+          "The GEL-QUANTUM 180™ VII sneaker combines a futuristic shape .
+        </p>
+        <p class="main">₹6,568</p>
+        <button class="btn btn-primary add-to-cart-btn" data-id="1">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+
+    <div class="d-flex flex-row justify-content-between">
+      <div class="bg shadow">
+        <img
+          src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=550,height=412,quality=75,format=auto/in-resources/e671b7de-bcf9-4637-af5c-0ffe1c9d208a/Images/ProductImages/Source/1011B547_021_SR_RT_GLB.jpg"
+          alt="Product 1"
+          class="image"
+        />
+        <h4>GEL-NIMBUS 25</h4>
+        <p class="main">
+          "The GEL-NIMBUS® 25 shoe's soft cushioning properties help you feel
+          like you're landing on clouds.
+        </p>
+        <p class="main">₹7,399</p>
+        <button class="btn btn-primary add-to-cart-btn" data-id="1">
+          Add to Cart
+        </button>
+      </div>
+      <div class="bg shadow">
+        <img
+          src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=550,height=412,quality=75,format=auto/in-resources/e671b7de-bcf9-4637-af5c-0ffe1c9d208a/Images/ProductImages/Source/1011B203_003_SR_RT_GLB.jpg"
+          alt="Product 2"
+          class="image"
+        />
+        <h4>GEL-KINSEI BLAST</h4>
+        <p class="main">
+          The Gel-Kinsei Blast Shoes Are Designed For Distance Runners Seeking A
+          Smooth Stride. .
+        </p>
+        <p class="main">₹8,289</p>
+        <button class="btn btn-primary add-to-cart-btn" data-id="2">
+          Add to Cart
+        </button>
+      </div>
+      <div class="bg shadow">
+        <img
+          src="https://storage.sg.content-cdn.io/cdn-cgi/image/%7Bwidth%7D,%7Bheight%7D,quality=75,format=auto/in-resources/e671b7de-bcf9-4637-af5c-0ffe1c9d208a/Images/ProductImages/Source/1011B592_400_SR_RT_GLB.jpg"
+          alt="Product 3"
+          class="image"
+        />
+        <h4>GEL-KINSEI BLAST LE 2</h4>
+        <p class="main">
+          The Gel-Kinsei Blast Shoes Are Designed For Distance Runners Seeking A
+          Smooth Stride.
+        </p>
+        <p class="main">₹7,882</p>
+        <button class="btn btn-primary add-to-cart-btn" data-id="1">
+          Add to Cart
+        </button>
+      </div>
+      <div class="bg shadow">
+        <img
+          src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=550,height=412,quality=75,format=auto/in-resources/e671b7de-bcf9-4637-af5c-0ffe1c9d208a/Images/ProductImages/Source/1041A298_002_SR_RT_GLB.jpg"
+          alt="Product41"
+          class="image"
+        />
+        <h4>SOLUTION SWIFT FF</h4>
+        <p class="main">
+          The Fastest Model In The Asics Tennis Range, Our Solution Speed Ff 2
+          Shoe Is All About Helping Players Expand Their Territory On The Court.
+        </p>
+        <p class="main">₹8,047</p>
+        <button class="btn btn-primary add-to-cart-btn" data-id="1">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+
+    
+    <h1 class="follow-us-section-heading">Follow Us</h1>
+
+    <div class="d-flex flex-row justify-content-center">
+      <div class="follow-us-icon-container">
+        <a href="https://twitter.com/chandanara98052">
+        <i class="clr fab fa-twitter icon"></i></a>
+      </div>
+      <div class="follow-us-icon-container">
+        <a href="https://instagram.com/_chandana_chandu_2002?igshid=MzNlNGNkZWQ4Mg==">
+        <i class="clr fab fa-instagram icon"></i></a>
+      </div>
+      <div class="follow-us-icon-container">
+        <a href="https://www.facebook.com/profile.php?id=100094654820701">
+         <i class="clr fab fa-facebook icon"></i>
+        </a>
+      </div>
+    </div>
+
+    <div id="contact" class="footer-section pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB2KOs-7ZNvx0n5c4MyoLgA_JKDOVcxhUqaSDBoknojS8mdx5VOY3TEZcBKWWEK-K2h3k&usqp=CAU"
+              class="imagesize"
+            />
+            <h1 class="footer-section-mail-id">shoeshopping@shoesstore.com</h1>
+            <p class="footer-section-address">
+              Andhra ooty,Madanapalli, India.
+            </p>
+            <p class="footer-section-address">
+              Contact details: 9889516523
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/20c5629a29.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>s
